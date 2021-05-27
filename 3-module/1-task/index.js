@@ -1,3 +1,4 @@
+
 function namify(users) {
   return !Array.isArray(users)
     ? (users = [])
@@ -5,3 +6,4 @@ function namify(users) {
         return item.name;
       });
     }
+  
